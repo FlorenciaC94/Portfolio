@@ -1,10 +1,73 @@
 body {
     background-image: url(../Portfolio/Assets/cool-background.png);
 }
+.container {
+  background-color: transparent;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
 h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif; 
 }
 p {
     font-family: 'Raleway', sans-serif;
+}
+.container-portfolio {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightblue;
+    overflow: scroll;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: scroll;
+  }
+.text2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: darkblue;
+    text-decoration: underline;
+    overflow: scroll;
 }
