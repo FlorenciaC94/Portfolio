@@ -1,3 +1,10 @@
+body {
+    background-image: url(../Portfolio/Assets/cool-background.png);
+}
 h1 {
-    text-align: center; 
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+}
+p {
+    font-family: 'Raleway', sans-serif;
 }
